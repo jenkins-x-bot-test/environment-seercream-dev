@@ -1,0 +1,21 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: cb-kubecd
+    provider: github
+    repository: jr2-seercream
+  name: cb-kubecd-jr2-seercream
+spec:
+  description: Imported application for cb-kubecd/jr2-seercream
+  httpCloneURL: https://github.com/cb-kubecd/jr2-seercream.git
+  org: cb-kubecd
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: jr2-seercream
+  scheduler:
+    kind: ""
+    name: ""
+  url: https://github.com/cb-kubecd/jr2-seercream.git

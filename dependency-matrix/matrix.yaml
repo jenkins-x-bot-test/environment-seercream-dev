@@ -1,0 +1,7 @@
+dependencies:
+- host: github.com
+  owner: cb-kubecd
+  repo: jr2-seercream
+  url: https://github.com/cb-kubecd/jr2-seercream.git
+  version: ""
+  versionURL: ""
